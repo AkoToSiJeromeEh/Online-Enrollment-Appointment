@@ -156,6 +156,7 @@ namespace F1
 }
 
 APPOINTMENT DAY SELECTOR FUNCTION
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -239,7 +240,8 @@ namespace F1
 
 CLEAR BUTTON WHICH IS REALLY ESSENTIAL ONE CLICK AND ALL OF THE TEXT IS GONE
  
- CODE :  private void button2_Click(object sender, EventArgs e)
+ CODE : 
+ private void button2_Click(object sender, EventArgs e)
         {
             TXT1.Clear();
             TXT2.Clear();
@@ -247,7 +249,8 @@ CLEAR BUTTON WHICH IS REALLY ESSENTIAL ONE CLICK AND ALL OF THE TEXT IS GONE
         
 BACK BUTTON WHICH BRING YOU BACK ON THE PAGE YOU ENTER BEFORE 
 
-CODE :  private void button4_Click(object sender, EventArgs e)
+CODE : 
+private void button4_Click(object sender, EventArgs e)
         {
             Login log = new Login();
             log.Show();
@@ -262,14 +265,16 @@ CODE :  private void button4_Click(object sender, EventArgs e)
 
 ADD BUTTON WHICH ADDING THE APPOINTMENT 
 
-  CODE : private void BTN1_Click(object sender, EventArgs e)
+  CODE : 
+  private void BTN1_Click(object sender, EventArgs e)
         {   
             table.Rows.Add(NAME.Text, ID.Text, COURSE.Text, YEAR.Text, CNUMBER.Text);
             MessageBox.Show("APPOINTED");
         }
 UPDATE BUTTON WHICH UPDATING THE APPOINTMENT
 
-CODE : private void button1_Click(object sender, EventArgs e)
+CODE : 
+private void button1_Click(object sender, EventArgs e)
         {
             DataGridViewRow Appointment = dataGridView1.Rows[forms];
             Appointment.Cells[0].Value = NAME.Text;
@@ -282,6 +287,7 @@ CODE : private void button1_Click(object sender, EventArgs e)
 
 
 REMOVE BUTTON WHICH REMOVING THE APPOINTMENT
+
  private void button2_Click(object sender, EventArgs e)
         {
             forms = dataGridView1.CurrentCell.RowIndex;
@@ -291,7 +297,8 @@ REMOVE BUTTON WHICH REMOVING THE APPOINTMENT
         }
 ASCEND ALGORITHM BUTTON : ASCEND THE TIME ON WHAT USER WILL INPUT.
 
-CODE : private void button5_Click(object sender, EventArgs e)
+CODE : 
+private void button5_Click(object sender, EventArgs e)
         {
             this.dataGridView1.Sort(this.dataGridView1.Columns[3], ListSortDirection.Ascending);
         }
