@@ -1,20 +1,34 @@
 The purpose of this system is to make our enrollment process easier and smoother by booking and making it easier for students to enroll. The advantage of this is that students will not have to wait because they already know their schedule. number if they are the next to enroll. It also sorts who are the first to book who will continue in the enrollment system held by the facilitators. This system also has a function to enter the student's name, course, total payment and exchange
 
 MINI PROJECT WHICH IS ENROLLMENT APPOINTMENT FUNCTION AND FEATURES
+
 LOADING FORM
+
 LOGIN FORM
+
 APPOINTMENT DAY SELECTOR FUNCTION
+
 CLEAR BUTTON WHICH IS REALLY ESSENTIAL ONE CLICK AND ALL OF THE TEXT IS GONE
+
 BACK BUTTON WHICH BRING YOU BACK ON THE PAGE YOU ENTER BEFORE 
+
 ADD BUTTON WHICH ADDING THE APPOINTMENT 
+
 UPDATE BUTTON WHICH UPDATING THE APPOINTMENT
+
+
 REMOVE BUTTON WHICH REMOVING THE APPOINTMENT
+
 PROGRAMMERS :
 
 1 LEAD GASPAR , JEROME GABRIEL V.
+
 2 FRANCISCO , VINCENT.
+
 3 TORRESS , JERALD .
+
 4 SAMBRANO , DEE .
+
 DATE SUBMMITED : OCTOBER 29 , 2022
 
 APPOINTMENT UPDATE 
